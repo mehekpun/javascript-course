@@ -1,6 +1,6 @@
-let score = "33"
+/*let score = "33"
 
-console.log(typeof score)
+//console.log(typeof score)
 
 let v = Number(score) //write N capital in Number
 console.log(typeof v)
@@ -21,4 +21,20 @@ console.log(valn) //value of Number(null)=0
 
 let y = Boolean("")
 console.log(y)
-//"" is false and anything written inside is true
+//"" is false and anything written inside is true*/
+
+//-----------------------------operations-------------------------------------
+
+let n = 3
+let negn = -n
+console.log(negn)
+
+console.log(2+2)
+console.log("1"+2)
+console.log("1"+"2")
+console.log("1"+2+2)
+console.log(1+"2"+2)
+console.log(1+2+"2")
+
+
+
