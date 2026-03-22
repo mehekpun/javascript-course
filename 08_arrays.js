@@ -26,4 +26,12 @@ console.log(newarr) //string
 //slice nd splice
 
 console.log(arr.slice(1,3))
-console.log(arr.slice(1,3)) //original array ko manipulate krta hai
+console.log(arr.splice(1,3)) //original array ko manipulate krta hai
+
+const m = arr.concat(arr2)
+const n = [...arr,...arr2] //people prefer this instead of concat
+console.log(m)
+console.log(Array.isArray("mehek"))
+console.log(Array.from("mehek"))
+console.log(Array.from({name: "mehek"})) //empty array!! interesting
+console.log(Array.of(score1,score2,score3))
