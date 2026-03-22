@@ -14,7 +14,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-// const bigNumber = 3456543576654356754n
+// const bigNumber = 345654 3576654356754n
 
 
 
@@ -23,6 +23,7 @@ console.log(id === anotherId);
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
+//objects r in key value pair
 let myObj = {
     name: "hitesh",
     age: 22,
@@ -35,3 +36,4 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
