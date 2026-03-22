@@ -1,4 +1,4 @@
-//singleton - apne tarah ka ek hi object hai
+/* //singleton - apne tarah ka ek hi object hai
 
 
 //object.create - constructor method singleton
@@ -29,4 +29,42 @@ jsuser.greetingtwo = function(){
 }
 console.log(jsuser.greeting())
 console.log(jsuser.greeting) //function return back - function execute nhi hua hai bs reference aaya hai
-console.log(jsuser.greetingtwo())
+console.log(jsuser.greetingtwo()) */
+ 
+const t = new Object() //singleton object
+//const l = {}
+
+//both r same, will give empty object
+
+t.id = "123adc"
+t.name = "mehek"
+t.isloggedin = false
+const regularUser = {
+    email: "some@gmail.com",
+    fullname: {
+        userfullname: {
+            firstname: "mehek",
+            lastname: "pun"
+        }
+    }
+}
+
+//console.log(regularUser.fullname.userfullname.firstname);
+
+//console.log(t)
+
+const obj1 = {1:"a", 2:"b"}
+const obj2 = {3:"c",4:"d"}
+
+const obj3 = {obj1 , obj2}
+console.log(obj3)
+
+const obj4 = Object.assign({},obj1,obj2) //pehla wala is target and rest all r souces, so obj1, obj2 se {} mein jaa raha hai
+console.log(obj4)
+console.log(Object.keys(t)); //array
+console.log(Object.values(t));
+console.log(Object.entries(t));
+
+console.log(t.hasOwnProperty('isloggedin'))
+
+ 

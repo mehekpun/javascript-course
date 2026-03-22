@@ -30,6 +30,7 @@ console.log(arr.splice(1,3)) //original array ko manipulate krta hai
 
 const m = arr.concat(arr2)
 const n = [...arr,...arr2] //people prefer this instead of concat
+// ... -> spread operator
 console.log(m)
 console.log(Array.isArray("mehek"))
 console.log(Array.from("mehek"))
