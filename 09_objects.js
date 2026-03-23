@@ -67,4 +67,30 @@ console.log(Object.entries(t));
 
 console.log(t.hasOwnProperty('isloggedin'))
 
- 
+
+//destructuring
+
+const course = {
+    coursename: "kaksha",
+    fees:2000,
+    courseinstructor: "mehek"
+}
+
+const {courseinstructor} = course //use that type of brackets
+console.log(courseinstructor)
+    
+//---------------------------------------//
+
+//----------------------------API-------------------------//
+
+//JSON- Javascript Object Notation(kinda like object)
+
+/* {
+    "name":"mehek",
+    "age":"18",
+    "isloggedin": "true"
+ } */
+
+//the key value pair r in all in string
+
+//sometimes API' s r in array form as well
